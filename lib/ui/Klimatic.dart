@@ -111,7 +111,7 @@ class _KlimaticState extends State<Klimatic> {
                     ),
                     subtitle: new ListTile(
                       title: new Text(
-                        "Humidity: ${content['main']['humidity'].toString()}\n"
+                        "Humidity: ${content['main']['humidity'].toString()} % \n"
                             "Min: ${content['main']['temp_min'].toString()}\n"
                             "Max: ${content['main']['temp_max'].toString()}",
                         style:
